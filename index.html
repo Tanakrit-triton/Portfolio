@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav>
+        <div class="container">
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <img src="img/img1.png" alt="Profile Picture" style="width: 1000px; height: auto;">
+            <h1>Hello, I'm Tanakrit Sunthonwetchapong</h1>
+            <p>A King Mongkut’s University of Technology Thonburi student</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Tanakrit, my nickname is Triton, I'm 18 years old, I'm from Thailand, I'm Thai, My hobbies are play football, reading books and cooking.</p>
+            <p>Now I'm study at King Mongkut’s University of Technology Thonburi. I study in the Faculty of Computer Engineering.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>High School Diploma</h3>
+                <p>Lasalle School, 2021 - 2023</p>
+                <p>Graduated from the science-mathematics program.</p>
+            </div>
+            <div class="education-item">
+                <h3>lower secondary school Diploma</h3>
+                <p>Lasalle School, 2018 - 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Try To Survive from Zombie:THe</h3>
+                <p>Selected to advance to the regional competition.In this competition, my team has chosen to create Zombie survival game This will have different features than other zombie shooting games on Roblox at that time. Our game will have the uniqueness of Thailand and the central region integrated into the map within the game. Including various systems that make the game look more realistic.</p>
+                <img src="img/img3.png" alt="Profile Picture" style="width: 100px; height: auto;">
+            </div>
+            <div class="project">
+                <h3>ROBOT CHINESE CABBAGE DETECTOR</h3>
+                <p>This project was inspired by the problem of employees taking time off from a lettuce sorting factory due to the smell of rotten lettuce. As a result, workers are sick and there is also a lack of workers to sort lettuce. So my friends and I have used knowledge from CiRA CORE in the areas of Deep Detect and Deep Train to create artificial intelligence. By separating lettuce by color and Rotten characteristics of lettuce.</p>
+                <img src="img/img2.png" alt="Profile Picture" style="width: 100px; height: auto;">
+            </div>
+           
+    </section>
+
+     <!-- Contact Section -->
+     <section id="contact">
+        <div class="container">
+            <h2>Contact Me on Instagram</h2>
+            <!-- Button to open Instagram -->
+            <button onclick="openInstagram()">Visit My Instagram</button>
+        </div>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function openInstagram() {
+            window.open("https://www.instagram.com/tt_nakritt/", "_blank");
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
